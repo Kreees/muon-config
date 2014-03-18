@@ -2,10 +2,12 @@
     "name": "muon-config",
     "version": "0.0.1",
     "author":"sukharev",
+    "main": "./module.js",
     "dependencies": {
-        "muon": "*"
+        "muon-user":"*"
     },
     "devDependencies": {
+        "muon": "*",
         "async": "*",
         "q":"*",
         "underscore":"*",
